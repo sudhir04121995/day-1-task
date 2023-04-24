@@ -1,0 +1,15 @@
+                             DIFFERENCE BETWEEN  HTTP1.1  AND  HTTP2
+                   
+                HTTP1.1                                                      HTTP 2
+    1. The first version of HTTP was created in              1. The new version of HTTP was created in 2015, This version 
+       1997 and this version is called as HTTP1.1                was named as HTTP 2
+
+    2. HTTP1.1 transfer all request and response             2. In HTTP 2 works on binary framing this convert all textual into plaine text format                             into a binary format
+
+    3. HTTP1.1 loaded one after another request,             3. this works on fully multiplexing that is using one TCP
+       the TCP connection is blocked all other                  is used for multiple request             
+       request until the response does not 
+       recive
+
+    4. In HTTP1.1 the data is compressed by itself           4.  HPACK is used to split data from header and it compressesthe header
+                                                                 the header   

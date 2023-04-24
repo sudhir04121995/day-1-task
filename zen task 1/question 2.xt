@@ -1,0 +1,42 @@
+           OBJECT AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT
+
+         object is a most important data type ,object is a non primitive data type,
+primitive data type has constant value like pi value 3.14 but objects values are
+changable         
+object is a collection's of key:"value" pair these keys can be varible or functions
+and are called  properties and methods.
+The key:"value" pair is inside the flower brackets ({}) or curly brackets
+
+SYNTAX OF OBJECT:
+
+var <object-name> = {key1: "value1', key2:"value2",... keyN:"valueN"};
+
+OBJECTS PROPERTIES:
+     A property of an object can be explained as a variable that is attached to the 
+object, the property of an object can changable,added and deleted.
+All phones have the same properties, but the property values differ from phone to phone.
+ All phones have the same methods, but the methods are performed at different times.
+
+my phone['make'] = 'samsung';
+my phone['model'] = 'samsung j5 ';
+my phone['year'] = 2016;
+my phone['sim slots'] = 'duel';
+my phone['RAM'] = '2gb';
+my phone['ROM'] = 16gb;
+
+The syntax for adding a property to an object is :
+
+(ObjectName.ObjectProperty = propertyValue;)
+
+The syntax for deleting a property from an object is:
+
+(delete ObjectName.ObjectProperty;)
+
+OBJECTS  METHODS:
+            JavaScript methods are actions that can be performed on objects.
+A JavaScript method is a property containing a function definition.
+    To access an object method with the following syntax:
+                (objectName.methodName())
+You will typically describe fullName() as a method of the person object, and fullName as a property.
+
+The fullName property will execute (as a function) when it is invoked with ().
